@@ -5,8 +5,8 @@ block content
   p Welcome to #{title}
   div
     each val in message
-    h3=val.user
-    p=val.text
-    p=val.added
-  a(href='/new') Create Message   
+      h3=val.user
+      p=val.text
+      p=val.added
+    a(href='/new') Create Message   
 
