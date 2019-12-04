@@ -1,0 +1,8 @@
+extends layout 
+
+block content
+    h1 Create Message
+    form(method='POST' action="/new")
+        input(name="messageuser" placeholder="Your name",required)
+        input(name="messagetext" placeholder="Your message",required)
+        button submit 
